@@ -51,9 +51,9 @@ export default function Navbar() {
               >
                 <Link
                   to={link.path}
-                  className="flex items-center gap-2 text-sm text-neutral-700 px-1 pb-2"
+                  className="flex items-center gap-2 text-sm text-neutral-600 px-1 pb-2 font-semibold"
                 >
-                  <Icon size={14} className="opacity-60" />
+                  <Icon size={16} className="opacity-60 font-semibold" />
                   {link.name}
                 </Link>
 
@@ -106,7 +106,7 @@ export default function Navbar() {
                       to={link.path}
                       onClick={() => setMenuOpen(false)}
                       className={`flex items-center gap-3 py-2 rounded-lg px-3 ${isActiveMobile
-                          ? "bg-black/15 text-black font-medium"
+                          ? "bg-black/10 text-black font-medium"
                           : "text-neutral-700"
                         }`}
                     >
