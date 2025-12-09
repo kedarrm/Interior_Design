@@ -68,10 +68,10 @@ export default function CTA() {
         >
           {/* Primary Button */}
           <motion.button
-            whileHover={{
-              scale: 1.08,
-              boxShadow: "0px 10px 25px rgba(0,0,0,0.15)",
-            }}
+            // whileHover={{
+            //   scale: 1.08,
+            //   boxShadow: "0px 10px 25px rgba(0,0,0,0.15)",
+            // }}
             whileTap={{ scale: 0.95 }}
             onClick={() => navigate("/contact")}
             className="px-10 py-4 bg-gray-600 text-white rounded-2xl font-medium flex items-center justify-center gap-2 cursor-pointer ring-2 ring-gray-600 ring-offset-2 transition"
@@ -93,7 +93,7 @@ export default function CTA() {
             }}
             whileTap={{ scale: 0.95 }}
             onClick={() => navigate("/projects")}
-            className="px-10 py-4 ring-2 ring-gray-600 ring-offset-2 border-gray-600 rounded-2xl font-medium transition cursor-pointer"
+            className="px-10 py-4 ring-2 ring-gray-600 ring-offset-2 rounded-2xl font-medium transition cursor-pointer"
           >
             View Our Work
           </motion.button>

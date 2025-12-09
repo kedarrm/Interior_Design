@@ -125,8 +125,6 @@ export default function ProcessPageComp() {
                                 <ProcessImage image={step.image} />
 
                                 <div className="relative">
-
-
                                     <motion.div
                                         initial={{ scale: 0.6, opacity: 0 }}
                                         whileInView={{ scale: 1, opacity: 1 }}
